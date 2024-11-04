@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(233, 229, 229);
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(226, 161, 63); */
+}
+
+.regForm {
+  /* color: red; */
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.formHeading {
+  text-align: center;
+}
+
+
+.label {
+  font-size: 20px;
+}
+
+.input {
+  height: 24px;
+  font-size: 18px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.submit {
+  height: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: red;
+}
+
+.submit:hover {
+  background-color: rgb(249, 203, 79);
+}
+
+.submit:active {
+  background-color: green;
+}

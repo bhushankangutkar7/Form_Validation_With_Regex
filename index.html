@@ -4,23 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form Validation</title>
+  <link rel="stylesheet" href="index.css"/>
 </head>
 <body>
-  <h1>Form Validation</h1>
-  <form>
-    <Label for="firstName">First Name</Label><br/>
-    <input type="text" id="firstName"><br/><br/>
+  <div class="formContainer">
+    <form class="regForm">
+      <h1 class="formHeading">Registration Form</h1><br/><br/>
+      <b><Label class="label" for="firstName">First Name</Label></b>
+      <input type="text" class="input" id="firstName"><br/><br/>
 
-    <Label for="lastName">Last Name</Label><br/>
-    <input type="text" id="lastName"><br/><br/>
+      <b><Label class="label" for="lastName">Last Name</Label></b>
+      <input type="text" class="input" id="lastName"><br/><br/>
 
-    <Label for="emailId">Email ID</Label><br/>
-    <input type="email" id="emailId"><br/><br/>
-  
-    <Label for="pwd">Password</Label><br/>
-    <input type="password " id="pwd"><br/><br/>
-  </form>
+      <b><Label class="label" for="emailId">Email ID</Label></b>
+      <input type="email" class="input" id="emailId"><br/><br/>
+    
+      <b><Label class="label" for="pwd">Password</Label></b>
+      <input type="password" class="input" id="pwd"><br/><br/>
 
-  <script></script>
+      <input type="submit" class="submit" value="Create Account">
+    </form>
+  </div>
+
+  <script src="/formValidation.js"></script>
 </body>
 </html>
